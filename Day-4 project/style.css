@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+body{
+  Background-color:#ECE5DD;
+  height:100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}  
+.logo{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-inline-start:25px;
+  margin-block-start:20px;
+}
+.logo i{
+  color:#25D366;
+}
+.whatsapp{
+  font-size:30px;
+}
+span{
+  font-size:20px;
+  font-weight:bold;
+}
+.btn i{
+  color:black;
+}
+button{
+  background-color:#25D366;
+  padding:10px;
+  margin-inline-end:40px;
+  border-radius:35px;
+  border:1px solid black;
+  font-size:15px;
+}
+.something{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color:#FFFFFF;
+  padding:40px;
+  width:770px;
+  height:350px;
+  border-radius:20px;
+  margin-block-start:30px;
+  border:1px solid black;
+}
+
+li{
+  list-style-type:decimal;
+  font-size:15px;
+  margin-block-end:15px;
+  margin-inline-start:15px;
+}
+.qrcode{
+  display:flex;
+  aligb-items:center;
+  flex-direction:column;
+  justify-content:center;
+  
+}
+.qrcode .check{
+  background-color:#25D366;
+  margin-inline-end:5px;
+  color:black;
+  font-weight:bold;
+}
+.qrcode img{
+  width:180px;
+  margin-block-end:5px;
+}
+.qrcode p{
+  color:#F2F2F2;
+  font-size:11px;
+  font-weight:bold;
+}
+
+.heading{
+  font-size:1.7em;
+  margin-block-end:8px;
+}
+.paragraph{
+  font-size:15px;
+  margin-block-end:20px;
+}
+.paragraph1{
+  display:inline-block;
+  font-size:15px;
+  margin-block-end:8px;
+  border-bottom:1px solid #25D366;
+  border-width:2px;
+}
+li .dot{
+  background-color:#e6e6e6;
+  color:black;
+  border:1px solid lightgray;
+  border-radius:3px;
+}
+li .set{
+  background-color:#e6e6e6;
+  color:black;
+  border:1px solid lightgray;
+  border-radius:3px;
+}
+
+
