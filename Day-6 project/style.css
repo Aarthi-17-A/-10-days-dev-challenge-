@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  background-color:#000000;
+  color:#fff;
+  height:100vh;
+  font-family:Arial, sans-serif;
+}
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-block-start:30px;
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-items:center;
+  margin:60px;
+}
+.image img{
+  width:400px;
+}
+.logo{
+  width:120px;
+}
+.App p{
+  text-align:center;
+}
+input::placeholder{
+  font-size:9px;
+  color:lightgray;
+}
+input[type="text"]{
+  diaply:flex;
+  flex-direction:column;
+  background-color:#1a1a1a;
+  border:1px solid grey;
+  padding:5px;
+  margin:2px;
+  border-radius:3px;
+  margin-block-start:30px;
+}
+#password{
+  margin-block-start:5px;
+  margin-block-end:10px;
+}
+form button{
+  background-color:#0095F6;
+  color:#fff;
+  border:1px solid #0095F6;
+  width:197px;
+  padding:2px;
+  border-radius:5px;
+  margin-block-end:25px;
+}
+form button:hover{
+  transform:scale:(1.0);
+}
+.line{
+  border-top:1px solid gray;
+  position:relative;
+}
+.line p{
+  background-color:black;
+  color:white;
+  position:absolute;
+  left:85px;
+  top:-10px;
+}
+.f-book{
+  margin-block-start:30px;
+}
+.f-book i{
+  color:#0095F6;
+}
+
+ a{
+  color:#0095F6;
+   text-decoration:none;
+   font-size:12px;
+}
+.forgot a{
+  color:#fff;
+}
+.forgot {
+  text-align:center;
+  margin-block-start:10px;
+  font-size:15px;
+  margin-block-end:40px;
+}
+.signup p{
+  font-size:13px;
+  margin-block-end:30px;
+}
+.App .get{
+  font-size:14px;
+  margin-block-end:13px;
+}
+
+button{
+  position:relative;
+}
+.App button{
+  background-color:black;
+  color:white;
+  width:100px;
+  height:30px;
+  border-radius:5px;
+  border:1px solid gray;
+}
+button .down{
+  font-size:8px;
+  margin-block-start:2px;
+}
+button span{
+  position:relative;
+  font-size:13px;
+  bottom:15px;
+  margin-inline-start:17px;
+}
+.App .google{
+  position:absolute;
+  right:70px;
+  top:5px;
+  margin-inline-end:2px;
+}
+.App .micro{
+  position:absolute;
+  right:70px;
+  top:5px;
+}
